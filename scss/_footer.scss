@@ -1,0 +1,18 @@
+.footer-nav {
+  margin-top: 4rem;
+  background-color: $color-nav;
+  height: 10rem;
+  font-size: 28px;
+	transition: all .2s;
+
+	li:hover {
+		text-shadow: $color-text-shadow;
+		-webkit-text-stroke: 1px #000;
+	}
+
+	&__row {
+		width: 76rem;
+		justify-content: space-between;
+		list-style: none;
+	}
+}

@@ -1,0 +1,70 @@
+.main {
+	h2 {
+		margin: 4.5rem auto;
+		padding-left: 1.2rem;
+	}
+
+	&__blocks {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		&-block {
+			background-color: $color-cart-stroke;
+			height: 19.8rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			&--one {
+				width: 33.5%;
+				margin-bottom: 17px;
+			}
+
+			&--two {
+				width: 65.5%;
+				margin-bottom: 17px;
+				padding-right: 176px;
+			}
+
+			&--three {
+				width: 85%;
+			}
+
+			&--four {
+				width: 13.5%;
+			}
+		}
+	}
+
+	&__squares {
+
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		height: 24.8rem;
+		background-color: $color-block-bg;
+		border-radius: 3rem;
+		max-width: 112rem;
+		width: 100%;
+		margin: 0 auto;
+
+		&__square {
+			width: 198px;
+			display: inline-block;
+			aspect-ratio: 1 / 1;
+			border-radius: 4rem;
+			border: 2px solid $color-cart-stroke;
+			background-color: $color-cart;
+			transition: all 0.2s;
+
+			&:hover {
+				box-shadow: $color-block-shadow;
+			}
+		}
+	}
+
+	&__text {
+		margin: 4.2rem auto 1.6rem;
+	}
+}

@@ -1,0 +1,18 @@
+.popup-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: $color-accent;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  border: none;
+  border-radius: 2.5rem;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+	&:hover {
+		box-shadow: $color-block-shadow;
+	}
+}
+
